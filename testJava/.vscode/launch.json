@@ -1,0 +1,231 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch testascii",
+            "request": "launch",
+            "mainClass": "test.jour10.testascii",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch asciiartv2",
+            "request": "launch",
+            "mainClass": "test.jour10.asciiartv2",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch asciiart",
+            "request": "launch",
+            "mainClass": "test.jour10.asciiart",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch multipleDeTrois",
+            "request": "launch",
+            "mainClass": "test.jour9.multipleDeTrois",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch showRepliqueFilms",
+            "request": "launch",
+            "mainClass": "test.jour9.showRepliqueFilms",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch computerFindNumber",
+            "request": "launch",
+            "mainClass": "test.jour8.computerFindNumber",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch findNumber",
+            "request": "launch",
+            "mainClass": "test.jour8.findNumber",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch moyenneDesNotesV3",
+            "request": "launch",
+            "mainClass": "test.jour8.moyenneDesNotesV3",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch moyenneDesNotesV2",
+            "request": "launch",
+            "mainClass": "test.jour7.moyenneDesNotesV2",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch moyenneDesNotesV2",
+            "request": "launch",
+            "mainClass": "test.jour1.jour7.moyenneDesNotesV2",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch moyenneDesNotesV1",
+            "request": "launch",
+            "mainClass": "test.jour6.moyenneDesNotesV1",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch convertirEuroBitcoin",
+            "request": "launch",
+            "mainClass": "test.jour5.convertirEuroBitcoin",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuestionGeographique",
+            "request": "launch",
+            "mainClass": "test.jour5.QuestionGeographique",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch puissance2",
+            "request": "launch",
+            "mainClass": "test.jour5.puissance2",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch tableDeMultiplication",
+            "request": "launch",
+            "mainClass": "test.jour5.tableDeMultiplication",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch bulletinDePaye",
+            "request": "launch",
+            "mainClass": "test.jour4.bulletinDePaye",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch tempsDeCuisson",
+            "request": "launch",
+            "mainClass": "test.jour3.tempsDeCuisson",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch nomDuMois",
+            "request": "launch",
+            "mainClass": "test.jour3.nomDuMois",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch temperature",
+            "request": "launch",
+            "mainClass": "test.jour3.temperature",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch voyage",
+            "request": "launch",
+            "mainClass": "test.jour2.voyage",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch triSelectif",
+            "request": "launch",
+            "mainClass": "test.jour2.triSelectif",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch age2",
+            "request": "launch",
+            "mainClass": "test.jour2.age2",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch age",
+            "request": "launch",
+            "mainClass": "test.jour2.age",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch tva2",
+            "request": "launch",
+            "mainClass": "test.jour2.tva2",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch CaractereAleatoire",
+            "request": "launch",
+            "mainClass": "test.jour1.CaractereAleatoire",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aleatoire",
+            "request": "launch",
+            "mainClass": "test.jour1.Aleatoire",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch Saisir",
+            "request": "launch",
+            "mainClass": "test.jour1.Saisir",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateAmerique",
+            "request": "launch",
+            "mainClass": "test.jour1.DateAmerique",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tva",
+            "request": "launch",
+            "mainClass": "test.jour1.Tva",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "test.jour1.App",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "testJava_bfd1cc90"
+        }
+    ]
+}
