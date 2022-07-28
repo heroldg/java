@@ -12,7 +12,7 @@ public class computerFindNumber {
         int car = (int) (1 + r.nextInt(100 - 1 + 1));
 
         System.out.println("Choissisez un nombre compris entre 1 et 100, puis appuyez sur une touche (+ Touch Enter):");
-        String keystart = console.nextLine();
+        console.nextLine();
 
         System.out.println("Je tente " + car + ", est-ce plus, moins ou est-ce le nombre(+/-/=) ?");
         String nextStep = console.nextLine();
@@ -55,6 +55,7 @@ public class computerFindNumber {
         // System.out.println("Super ! J'ai trouvé en " + tour + " tentatives, c'est le
         // nombre" + car);
         // } while (nextStep != "=");
+        console.close();
 
     }
 }

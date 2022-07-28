@@ -124,7 +124,7 @@ public class asciiartv2 {
                     }
                     // System.out.println();(espace.substring(0, (taille / 2)) + caractere);
 
-                    for (int i = 0; i < (taille / 2); i++) {
+                    for (int i = 0; i < (taille / 2 + 1); i++) {
                         System.out.printf("%s%s%s%s%n",
                                 "                                                                                                  "
                                         .substring(taille / 2, taille - i),
@@ -135,6 +135,7 @@ public class asciiartv2 {
                                                                       */, caractere);
 
                     }
+
                     System.out.println("");
                     System.out.println("Forme ?");
                     System.out.println("1 - rectangle plein");
@@ -150,6 +151,28 @@ public class asciiartv2 {
                     break;
                 case 5:
                     // Losange
+
+                    for (int i = 0; i < (taille / 2); i++) {
+                        System.out.printf("%s%s%s%s%n",
+                                "                                                                                                  "
+                                        .substring(taille / 2, taille - i),
+                                caractere, espace.substring(0, 2 * i)/*
+                                                                      * ,
+                                                                      * espace.substring((taille / 2),
+                                                                      * (taille) + i)
+                                                                      */, caractere);
+
+                    }
+
+                    for (int i = 0; i < (taille / 2) + 1; i++) {
+                        System.out.printf("%s%s%s%s%s%n",
+                                "                                                                                                  "
+                                        .substring(0, i),
+                                caractere, espace.substring((taille / 2), (taille - i)),
+                                espace.substring((taille / 2), (taille - i)), caractere);
+
+                    }
+
                     System.out.println("");
                     System.out.println("Forme ?");
                     System.out.println("1 - rectangle plein");
@@ -165,6 +188,23 @@ public class asciiartv2 {
                     break;
                 case 6:
                     // Damier
+                    int damier = 0;
+                    while ((espace.length() != taille / 2) && damier != taille / 2) {
+                        for (int d = 0; d < taille / 2; d++) {
+
+                            System.out.printf("%s%s", espace.substring(0, d - d + 1), caractere);
+
+                        }
+                        System.out.println();
+                        for (int d = 0; d < taille / 2; d++) {
+
+                            System.out.printf("%s%s", caractere, espace.substring(0, d - d + 1));
+
+                        }
+
+                        System.out.println();
+                        damier++;
+                    }
                     System.out.println("");
                     System.out.println("Forme ?");
                     System.out.println("1 - rectangle plein");

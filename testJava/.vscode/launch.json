@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch tableaux",
+            "request": "launch",
+            "mainClass": "test.jour11.tableaux",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "Launch testascii",
             "request": "launch",
             "mainClass": "test.jour10.testascii",
