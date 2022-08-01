@@ -1,0 +1,73 @@
+package test.jour11;
+
+import java.util.Scanner;
+
+public class TableauxNombreDOccurences {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+        int[] tab = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        int[] tabNbOccurence = new int[100];
+        int zero = 0;
+        int un = 0;
+        int deux = 0;
+        int trois = 0;
+        int quatre = 0;
+        int cinq = 0;
+        int six = 0;
+        int sept = 0;
+        int huit = 0;
+        int neuf = 0;
+
+        System.out.print(neuf);
+        System.out.println("Entrez une valeur comprise entre 0 et 9:[pour mettre fin '-1']");
+        int chiffre = console.nextInt();
+
+        while (chiffre != -1) {
+            System.out.println("Une autre valeur :[pour mettre fin '-1']");
+            chiffre = console.nextInt();
+
+            switch (chiffre) {
+                case 0:
+                    zero++;
+                    break;
+                case 1:
+                    un++;
+                    break;
+                case 2:
+                    deux++;
+                    break;
+                case 3:
+                    trois++;
+                    break;
+                case 4:
+                    quatre++;
+                    break;
+                case 5:
+                    cinq++;
+                    break;
+                case 6:
+                    six++;
+                    break;
+                case 7:
+                    sept++;
+                    break;
+                case 8:
+                    huit++;
+                    break;
+                case 9:
+                    neuf++;
+                    break;
+
+                default:
+                    System.out.println("Ce n'est pas un chiffre compris entre 0 et 9");
+                    break;
+            }
+
+        }
+        for (int val : tab) {
+
+            System.out.println("Nombre de" + val + ":" + chiffre);
+        }
+
+    }
+}

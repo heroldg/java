@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TableauxNombreDOccurences",
+            "request": "launch",
+            "mainClass": "test.jour11.TableauxNombreDOccurences",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch forAndTableau",
+            "request": "launch",
+            "mainClass": "test.jour11.forAndTableau",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch tableaux0to10",
+            "request": "launch",
+            "mainClass": "test.jour11.tableaux0to10",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tableaux2D",
+            "request": "launch",
+            "mainClass": "test.jour11.Tableaux2D",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListeDeCourses",
+            "request": "launch",
+            "mainClass": "test.jour11.ListeDeCourses",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "Launch tableaux",
             "request": "launch",
             "mainClass": "test.jour11.tableaux",
