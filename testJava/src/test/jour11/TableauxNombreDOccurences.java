@@ -5,69 +5,80 @@ import java.util.Scanner;
 public class TableauxNombreDOccurences {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
-        int[] tab = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-        int[] tabNbOccurence = new int[100];
-        int zero = 0;
-        int un = 0;
-        int deux = 0;
-        int trois = 0;
-        int quatre = 0;
-        int cinq = 0;
-        int six = 0;
-        int sept = 0;
-        int huit = 0;
-        int neuf = 0;
 
-        System.out.print(neuf);
-        System.out.println("Entrez une valeur comprise entre 0 et 9:[pour mettre fin '-1']");
-        int chiffre = console.nextInt();
+        final int ZERO_TO_NINE = 10;
+        final int OCCURENCE = 10;
 
-        while (chiffre != -1) {
-            System.out.println("Une autre valeur :[pour mettre fin '-1']");
-            chiffre = console.nextInt();
+        int[][] Tableau2D = new int[ZERO_TO_NINE][OCCURENCE];
+        Tableau2D[0][0] = 0;
+        Tableau2D[0][1] = 1;
+        Tableau2D[0][2] = 2;
+        Tableau2D[0][3] = 3;
+        Tableau2D[0][4] = 4;
+        Tableau2D[0][5] = 5;
+        Tableau2D[0][6] = 6;
+        Tableau2D[0][7] = 7;
+        Tableau2D[0][8] = 8;
+        Tableau2D[0][9] = 9;
+        Tableau2D[1][0] = 0;
+        Tableau2D[1][1] = 0;
+        Tableau2D[1][2] = 0;
+        Tableau2D[1][3] = 0;
+        Tableau2D[1][4] = 0;
+        Tableau2D[1][5] = 0;
+        Tableau2D[1][6] = 0;
+        Tableau2D[1][7] = 0;
+        Tableau2D[1][8] = 0;
+        Tableau2D[1][9] = 0;
 
-            switch (chiffre) {
-                case 0:
-                    zero++;
-                    break;
-                case 1:
-                    un++;
-                    break;
-                case 2:
-                    deux++;
-                    break;
-                case 3:
-                    trois++;
-                    break;
-                case 4:
-                    quatre++;
-                    break;
-                case 5:
-                    cinq++;
-                    break;
-                case 6:
-                    six++;
-                    break;
-                case 7:
-                    sept++;
-                    break;
-                case 8:
-                    huit++;
-                    break;
-                case 9:
-                    neuf++;
-                    break;
+        for (int j = 0; j < 1; j++) {
 
-                default:
-                    System.out.println("Ce n'est pas un chiffre compris entre 0 et 9");
-                    break;
+            int chiffre = 0;
+
+            for (int i = 0; i < OCCURENCE; i++) {
+                while (chiffre != -1) {
+                    System.out.println("Une valeur entre 0 et 9:[pour mettre fin '-1']");
+                    chiffre = console.nextInt();
+                    switch (chiffre) {
+                        case 0:
+                            Tableau2D[1][0] += 1;
+                            break;
+                        case 1:
+                            Tableau2D[1][1] += 1;
+                            break;
+                        case 2:
+                            Tableau2D[1][2] += 1;
+                            break;
+                        case 3:
+                            Tableau2D[1][3] += 1;
+                            break;
+                        case 4:
+                            Tableau2D[1][4] += 1;
+                            break;
+                        case 5:
+                            Tableau2D[1][5] += 1;
+                            break;
+                        case 6:
+                            Tableau2D[1][6] += 1;
+                            break;
+                        case 7:
+                            Tableau2D[1][7] += 1;
+                            break;
+                        case 8:
+                            Tableau2D[1][8] += 1;
+                            break;
+                        case 9:
+                            Tableau2D[1][9] += 1;
+                            break;
+
+                        default:
+                            break;
+                    }
+                }
+                System.out.println("Nombre de " + Tableau2D[j][i] + " : " + Tableau2D[1][i]);
+
             }
-
         }
-        for (int val : tab) {
-
-            System.out.println("Nombre de" + val + ":" + chiffre);
-        }
-
+        console.close();
     }
 }
