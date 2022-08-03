@@ -31,9 +31,20 @@ public class TableauxNombreDOccurences {
         Tableau2D[1][8] = 0;
         Tableau2D[1][9] = 0;
 
-        for (int j = 0; j < 1; j++) {
+        System.out.println("Saissisez une valeur 0 et 9 :[pour mettre fin '-1']");
 
-            int chiffre = 0;
+        int chiffre = console.nextInt();
+        if (chiffre > 9) {
+            System.out.println("Erreur ! Saissisez une valeur 0 et 9[entrer '-1' pour QUITTER]: ");
+            chiffre = console.nextInt();
+        }
+        for (int val : Tableau2D[0]) {
+            if (chiffre == val) {
+                Tableau2D[1][val] += 1;
+            }
+        }
+
+        for (int j = 0; j < 1; j++) {
 
             for (int i = 0; i < OCCURENCE; i++) {
                 while (chiffre != -1) {
@@ -70,13 +81,18 @@ public class TableauxNombreDOccurences {
                         case 9:
                             Tableau2D[1][9] += 1;
                             break;
+                        case -1:
+                            System.out.print("Voici les résultats:");
+                            System.out.println();
+                            break;
 
                         default:
+                            System.out.println("Erreur ! Veuillez entrer ");
                             break;
                     }
                 }
-                System.out.println("Nombre de " + Tableau2D[j][i] + " : " + Tableau2D[1][i]);
 
+                System.out.println("Nombre de " + Tableau2D[j][i] + " : " + Tableau2D[1][i]);
             }
         }
         console.close();
