@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch moyenneDeNotesv4",
+            "request": "launch",
+            "mainClass": "test.jour11.moyenneDeNotesv4",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "Launch TableauxNombreDOccurences",
             "request": "launch",
             "mainClass": "test.jour11.TableauxNombreDOccurences",
