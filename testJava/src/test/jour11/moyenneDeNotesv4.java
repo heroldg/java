@@ -34,6 +34,6 @@ public class moyenneDeNotesv4 {
             System.out.println("Moyenne :" + somme / nbNotes);
 
         }
-
+        console.close();
     }
 }

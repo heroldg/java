@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch machineAVoter",
+            "request": "launch",
+            "mainClass": "test.jour11.machineAVoter",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "Launch moyenneDeNotesv4",
             "request": "launch",
             "mainClass": "test.jour11.moyenneDeNotesv4",
