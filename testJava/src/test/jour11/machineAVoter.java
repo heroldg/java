@@ -6,8 +6,8 @@ public class machineAVoter {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
 
-        final int nbCandidat = 4;
-        int vote = 4;
+        final int nbCandidat = 2; // Ce chiffre doit correspondre au nombre de colonnes que l'ont souhaite avoir
+        int vote = 4; // Ce chiffre correspond au nombre de colonnes que l'ont souhaite avoir
         int candidat = 0;
         int nbvotes = 0;
 

@@ -6,7 +6,7 @@ public class TableauxNombreDOccurences {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
 
-        final int ZERO_TO_NINE = 10;
+        final int ZERO_TO_NINE = 2;
         final int OCCURENCE = 10;
 
         int[][] Tableau2D = new int[ZERO_TO_NINE][OCCURENCE];
