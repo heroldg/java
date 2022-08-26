@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch matrix",
+            "request": "launch",
+            "mainClass": "test.jour11.matrix",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "Launch queFaitildonc",
             "request": "launch",
             "mainClass": "test.jour11.queFaitildonc",
