@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch microBatailleNavale",
+            "request": "launch",
+            "mainClass": "test.jour11.microBatailleNavale",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "Launch matrix",
             "request": "launch",
             "mainClass": "test.jour11.matrix",

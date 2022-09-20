@@ -30,7 +30,7 @@ public class machineAVoter {
             System.out.println("3 - Marie JUSTEAU");
             System.out.println("4 - Nadia LETORD");
             System.out.println();
-            System.out.println("Choisissez parmi :");
+            System.out.println("Choisissez parmi les candidat en mettant le numéros correspondant (-1 pour QUITTER) :");
 
             candidat = console.nextInt();
 
