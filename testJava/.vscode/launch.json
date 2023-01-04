@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch morpion",
+            "request": "launch",
+            "mainClass": "test.jour11.morpion",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "Launch microBatailleNavale",
             "request": "launch",
             "mainClass": "test.jour11.microBatailleNavale",

@@ -15,7 +15,10 @@ public class microBatailleNavale {
 
         Random r = new Random();
         Random r2 = new Random();
-        char car = '?'; /* car est la variable qui correspond au bateau que l'ont devra chercher */
+        char car = '?'; /*
+                         * car pour caractère, est la variable qui correspond au bateau que l'ont devra
+                         * chercher
+                         */
         int aleatoireLignes = (int) (r2.nextInt(4));
         int aleatoireColonnes = (int) (r.nextInt(4));
 
@@ -25,7 +28,8 @@ public class microBatailleNavale {
         char[][] matrix = new char[COLONNES][LIGNES];
         matrix[aleatoireLignes][aleatoireColonnes] = car;
         // La variable car est définie comme celle que l'ont doit trouver dans le
-        // tableau grâce de manière aléatoire
+        // tableau grâce au paramètre random qu'on a crée
+        // [aleatoireLignes][aleatoireColonnes]
 
         for (int i = 0; i < COLONNES; i++) {
 
@@ -75,7 +79,8 @@ public class microBatailleNavale {
             // Pourquoi faire -1 ? Sachant qu'un tableau commence par 0, il y a un ecart de
             // 1 entre la début d'un tableau et le début d'une énumération faite par un être
             // humain. C'est avec ce - 1 que l'écart est corrigé pour que nous ayant les
-            // mêmes valeurs.
+            // mêmes valeurs. C'est à dire que la valeur perçues par un humain soit la même
+            // que doit interphété la machine
 
             System.out.println("Quelle ligne ?(horizontale)");
             matrixLignes = console.nextInt();
