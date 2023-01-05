@@ -1,0 +1,33 @@
+*Morpion play option test*
+
+
+
+// System.out.println("PLAYER X: Quelles colonnes ?");
+// morpionColonnes = console.nextInt();
+// morpionColonnes = morpionColonnes - 1;
+
+// System.out.println();
+
+// System.out.println("PLAYER X: Quelles lignes ?");
+// morpionlignes = console.nextInt();
+// morpionlignes = morpionlignes - 1;
+// nbCoupDeJeu++;
+
+// morpion[morpionColonnes][morpionlignes] = playerX;
+
+// for (int i = 0; i < LIGNES; i++) {
+
+// System.out.print("|");
+// for (int j = 0; j < COLONNES; j++) {
+// // System.out.print(i);
+// // System.out.print(j);
+
+// System.out.print(morpion[j][i]);
+// System.out.print("|");
+
+// }
+// System.out.println(
+
+// );
+// }
+// System.out.println(nbCoupDeJeu);
