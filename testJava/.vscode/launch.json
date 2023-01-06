@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Testbateau3",
+            "request": "launch",
+            "mainClass": "test.jour12.batailleNavale.Testbateau3",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBateau",
+            "request": "launch",
+            "mainClass": "test.jour12.batailleNavale.TestBateau",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestTableauBateau",
+            "request": "launch",
+            "mainClass": "test.jour12.batailleNavale.TestTableauBateau",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "Launch morpion",
             "request": "launch",
             "mainClass": "test.jour11.morpion",
