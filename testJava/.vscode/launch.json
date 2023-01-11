@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch afficheLaPuissance",
+            "request": "launch",
+            "mainClass": "test.jour13.afficheLaPuissance",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch punition",
+            "request": "launch",
+            "mainClass": "test.jour13.punition",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "Launch Testbateau3",
             "request": "launch",
             "mainClass": "test.jour12.batailleNavale.Testbateau3",

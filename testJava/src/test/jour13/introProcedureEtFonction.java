@@ -18,13 +18,16 @@ public class introProcedureEtFonction {
      * }
      */
 
-    // exemple de procédure à l'emploi
+    // Déclaration d'une procédure: qui une procedure permet de synthèsiter une
+    // suite d'instruction
     public static void afficherNfois(String t, int n) {
         for (int i = 0; i < n; i++) {
             System.out.println(t);
         }
     }
 
+    // Déclaration d'une fonction: à la différence d'une procédure il est préciser
+    // ce que l'ont souhaite retourner comme valeur ici "double"
     public static double puissance(double a, int n) {
         double p = 1;
         for (int i = 0; i < n; i++) {
