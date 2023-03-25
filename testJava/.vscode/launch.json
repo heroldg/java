@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch peint",
+            "request": "launch",
+            "mainClass": "test.jour13.peint",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch ASCIIArtStudio",
+            "request": "launch",
+            "mainClass": "test.jour13.ASCIIArtStudio",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch SauteMouton",
+            "request": "launch",
+            "mainClass": "test.jour13.SauteMouton",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnTabEtDesFonctions",
+            "request": "launch",
+            "mainClass": "test.jour13.UnTabEtDesFonctions",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch MicroBatailleNavaleV2",
+            "request": "launch",
+            "mainClass": "test.jour13.MicroBatailleNavaleV2",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch LePLusGrand",
+            "request": "launch",
+            "mainClass": "test.jour13.LePLusGrand",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch PunitionRecursive",
+            "request": "launch",
+            "mainClass": "test.jour13.PunitionRecursive",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestNbSecToHMS",
+            "request": "launch",
+            "mainClass": "test.jour13.TestNbSecToHMS",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Launch PassageEnParametresTypeReference",
+            "request": "launch",
+            "mainClass": "test.jour13.PassageEnParametresTypeReference",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "Launch afficheLaPuissance",
             "request": "launch",
             "mainClass": "test.jour13.afficheLaPuissance",
