@@ -82,7 +82,7 @@ public class ASCIIArtStudio {
 
             for (int b = 0; b < COLONNES; b++) {
                 if (tab[a][b] == newCar) {
-                    System.out.print(tab[a][b]);
+                    System.out.print(tab[a][b] = newCar);
                     System.out.print("|");
                 } else if (tab[a][b] == espace) {
                     System.out.print(tab[a][b]);
