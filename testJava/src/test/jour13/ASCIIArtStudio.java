@@ -9,7 +9,7 @@ public class ASCIIArtStudio {
     public static final char espace = ' ';
 
     public static void main(String[] args) {
-        initialiserTab();
+        // initialiserTab();
         int forme = 0;
         Scanner console = new Scanner(System.in);
         System.out.println("1 - Un nouveau caractère");
@@ -45,34 +45,36 @@ public class ASCIIArtStudio {
         console.close();
     }
 
-    public static void initialiserTab() {
+    // public static void initialiserTab() {
 
-        System.out.print("  |0|1|2|3|");
-        System.out.println();
-        for (int index = 0; index < LIGNES; index++) {
-            System.out.print((index) + ".|");
+    // System.out.print(" |0|1|2|3|");
+    // System.out.println();
+    // for (int index = 0; index < LIGNES; index++) {
+    // System.out.print((index) + ".|");
 
-            for (int i = 0; i < COLONNES; i++) {
-                tab[i][i] = espace;
-                System.out.print(tab[i][i]);
-                System.out.print("|");
-            }
-            System.out.println();
-        }
-    }
+    // for (int i = 0; i < COLONNES; i++) {
+    // tab[i][i] = espace;
+    // System.out.print(tab[i][i]);
+    // System.out.print("|");
+    // }
+    // System.out.println();
+    // }
+    // }
 
     public static void newCaractere() {
+
         System.out.println("Saissisez un caractère à dessiner");
         Scanner console = new Scanner(System.in);
         char newCar = console.next().charAt(0);
 
-        System.out.println("Vous souhaitez dessiner le caractère " + newCar + " sur la colonnes:");
+        System.out
+                .println("Vous souhaitez dessiner le caractère " + newCar + " sur la colonnes[chiffre entre 0 et 3]:");
         int coordonneesX = console.nextInt();
 
-        System.out.println("Et sur la ligne:");
+        System.out.println("Et sur la ligne[chiffre entre 0 et 9]:");
         int coordonneesY = console.nextInt();
 
-        tab[coordonneesY][coordonneesX] += newCar;
+        tab[coordonneesY][coordonneesX] = newCar;
 
         System.out.print("  |0|1|2|3|");
         System.out.println();
@@ -87,6 +89,7 @@ public class ASCIIArtStudio {
                 } else if (tab[a][b] == espace) {
                     System.out.print(tab[a][b]);
                     System.out.print("|");
+
                 } else {
                     // char options = '?';
                     System.out.print(tab[a][b] = espace);
@@ -102,7 +105,7 @@ public class ASCIIArtStudio {
         Scanner console = new Scanner(System.in);
         char newCar = console.next().charAt(0);
 
-        System.out.println("Vous souhaitez dessiner le rectangle " + newCar + " commence sur la ligne:");
+        System.out.println("Vous souhaitez que le dessin du rectangle " + newCar + " commence sur la ligne:");
         int ligneStart = console.nextInt();
 
         System.out.println("Et finisse sur la ligne:");
