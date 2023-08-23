@@ -1,0 +1,1 @@
+ce dossier prend en compte les bonnes pratique face a l'exercice 'Les dès' qu'on peut retrouver dans le dossier 'LesJeuxDes' mais celui-ci n'a pas les bonne pratiques.

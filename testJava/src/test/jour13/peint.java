@@ -33,7 +33,7 @@ public class peint {
         }
 
         peintRec(x, y, image, y, y, x, y);
-
+        console.close();
     }
 
     public static void peintRec(int x, int y, int image[][], int h, int l, int ancienneCouleur, int nouvelleCouleur) {
@@ -52,4 +52,5 @@ public class peint {
             }
         }
     }
+
 }

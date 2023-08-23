@@ -10,8 +10,8 @@ public class ASCIIArtStudio {
 
     public static void main(String[] args) {
         // initialiserTab();
-        int forme = 0;
         Scanner console = new Scanner(System.in);
+        int forme = 0;
         System.out.println("1 - Un nouveau caractère");
         System.out.println("2 - Rectangle");
         System.out.println("3 - Quitter");
@@ -42,7 +42,6 @@ public class ASCIIArtStudio {
             }
         }
         System.out.println("Fin merci");
-        console.close();
     }
 
     // public static void initialiserTab() {
@@ -98,6 +97,8 @@ public class ASCIIArtStudio {
             }
             System.out.println();
         }
+
+        console.close();
     }
 
     public static void rectangle() {
@@ -145,6 +146,8 @@ public class ASCIIArtStudio {
             }
             System.out.println();
         }
+
+        console.close();
     }
 
     public static void colorChange() {

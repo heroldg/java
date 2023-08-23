@@ -10,8 +10,11 @@ public class ASCIIARTSTUDIOTEST {
     // Méthode pour afficher le dessin en ASCII art
     public static void displayDrawing() {
         for (int i = 0; i < drawing.length; i++) {
+            System.out.print(i + ".|");
             for (int j = 0; j < drawing[i].length; j++) {
                 System.out.print(drawing[i][j]);
+                System.out.print("|");
+
             }
             System.out.println();
         }

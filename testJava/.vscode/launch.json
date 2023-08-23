@@ -6,6 +6,153 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BatailleDeDes",
+            "request": "launch",
+            "mainClass": "test.RelationsClassesV2.exos.LesDes2Correc.BatailleDeDes",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "PLayDeuxJoueurDe",
+            "request": "launch",
+            "mainClass": "test.RelationsClassesV2.exos.LesDes.PLayDeuxJoueurDe",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "JoueurBataille",
+            "request": "launch",
+            "mainClass": "test.RelationsClassesV2.exos.JoueurBataille",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "PlayDes",
+            "request": "launch",
+            "mainClass": "test.POONEWONE.JeuDeDes.PlayDes",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Transtypage2",
+            "request": "launch",
+            "mainClass": "test.RelationsClassesV2.Cours.Transtypage2",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "Transtypage",
+            "request": "launch",
+            "mainClass": "test.RelationsClassesV2.Cours.Transtypage",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestGrille",
+            "request": "launch",
+            "mainClass": "test.POONEWONE.MBNV4.TestGrille",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestGrille",
+            "request": "launch",
+            "mainClass": "test.POONEWONE.MBNV3.TestGrille",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "saisieCustomer",
+            "request": "launch",
+            "mainClass": "test.POONEWONE.batailleNavale.customers.saisieCustomer",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "PlayDes",
+            "request": "launch",
+            "mainClass": "test.POONEWONE.batailleNavale.JeuDeDes.PlayDes",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestTableauBateaux",
+            "request": "launch",
+            "mainClass": "test.POONEWONE.batailleNavale.TestTableauBateaux",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestBateau",
+            "request": "launch",
+            "mainClass": "test.POONEWONE.batailleNavale.TestBateau",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestbateauPlay",
+            "request": "launch",
+            "mainClass": "test.POO.MicrobatailenavaleV3POO.TestbateauPlay",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestClients",
+            "request": "launch",
+            "mainClass": "test.POO.Clients132.TestClients",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestSaisirEtAffichage",
+            "request": "launch",
+            "mainClass": "test.POO.LesClients.TestSaisirEtAffichage",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestDes",
+            "request": "launch",
+            "mainClass": "test.POO.LesDes.TestDes",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TroisDes",
+            "request": "launch",
+            "mainClass": "test.POO.LesJeuxDeDes.TroisDes",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestBateau3",
+            "request": "launch",
+            "mainClass": "test.POO.batailleNavale.TestBateau3",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestTableauBateaux",
+            "request": "launch",
+            "mainClass": "test.POO.batailleNavale.TestTableauBateaux",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "TestBateau",
+            "request": "launch",
+            "mainClass": "test.POO.batailleNavale.TestBateau",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
+            "name": "ASCIIARTSTUDIOFINAL",
+            "request": "launch",
+            "mainClass": "test.jour13.ASCIIARTSTUDIOFINAL",
+            "projectName": "testJava_bfd1cc90"
+        },
+        {
+            "type": "java",
             "name": "ASCIIARTSTUDIOTEST",
             "request": "launch",
             "mainClass": "test.jour13.ASCIIARTSTUDIOTEST",

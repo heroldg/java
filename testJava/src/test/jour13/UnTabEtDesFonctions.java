@@ -16,7 +16,8 @@ public class UnTabEtDesFonctions {
         System.out.println("Les nombres aléatoires vont de 0 à " + max);
         System.out.println();
 
-        // La ligne ci-dessous ermet d'instancier une variable et d'appeler une fonction
+        // La ligne ci-dessous permet d'instancier une variable et d'appeler une
+        // fonction
         int[] maximumNumber = maxArray(TabUneDimension(max));
         // La ligne ci-dessous Permet d'écrire la réponse attendu
         System.out.print(
