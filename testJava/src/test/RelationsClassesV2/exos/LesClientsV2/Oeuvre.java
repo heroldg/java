@@ -17,38 +17,46 @@ public class Oeuvre {
     private String[][] categoriesOeuvres = new String[2][100];
     private int particularite;
 
-    Oeuvre(int choix) {
+    public Oeuvre(int choix) {
 
         this.categoriesOeuvres[0][0] = video;
         this.categoriesOeuvres[1][0] = livre;
         if (choix == 1) {
-            nbVideo = nbVideo + 1;
-            int time;
-            System.out.println("titre ?");
-            this.titre = console.nextLine();
-            System.out.println("auteur ?");
-            this.auteur = console.nextLine();
-            System.out.println("durée (minutes) ?");
-            time = console.nextInt();
-            setParticularite(time);
-            this.categoriesOeuvres[0][nbVideo] = this.getVideo();
-            System.out.println(this.getVideo());
+            addLivres();
         } else if (choix == 2) {
-            nbLivre = nbLivre + 1;
-            int pages;
-
-            setParticularite(particularite);
-            System.out.println("titre ?");
-            this.titre = console.nextLine();
-            System.out.println("auteur ?");
-            System.out.println("durée (minutes) ?");
-            pages = console.nextInt();
-            setParticularite(pages);
-            this.auteur = console.nextLine();
-            this.categoriesOeuvres[1][nbLivre] = getLivre();
-            System.out.println(this.getLivre());
+            addVideo();
         }
 
+    }
+
+    public void addLivres() {
+        nbVideo = nbVideo + 1;
+        int time;
+        System.out.println("titre ?");
+        this.titre = console.nextLine();
+        System.out.println("auteur ?");
+        this.auteur = console.nextLine();
+        System.out.println("durée (minutes) ?");
+        time = console.nextInt();
+        setParticularite(time);
+        this.categoriesOeuvres[0][nbVideo] = this.getVideo();
+        System.out.println(this.getVideo());
+    }
+
+    public void addVideo() {
+        nbLivre = nbLivre + 1;
+        int pages;
+
+        setParticularite(particularite);
+        System.out.println("titre ?");
+        this.titre = console.nextLine();
+        System.out.println("auteur ?");
+        this.auteur = console.nextLine();
+        System.out.println(" nombres de pages ?");
+        pages = console.nextInt();
+        setParticularite(pages);
+        this.categoriesOeuvres[1][nbLivre] = getLivre();
+        System.out.println(this.getLivre());
     }
 
     public int getNbVideo() {
@@ -60,11 +68,14 @@ public class Oeuvre {
     }
 
     public String getVideo() {
-        return "Video " + this.getTitre() + " de " + this.getAuteur() + " (" + this.getParticularite() + ")";
+        return "Video " + this.getTitre() + " de " + this.getAuteur() + " (" + this.getParticularite()
+                + " minutes) ajouté";
+
     }
 
     public String getLivre() {
-        return "Livre " + this.getTitre() + " de " + this.getAuteur() + " (" + this.getParticularite() + ")";
+        return "Livre " + this.getTitre() + " de " + this.getAuteur() + " (" + this.getParticularite()
+                + " pages) ajouté ";
     }
 
     public String getTitre() {
@@ -83,7 +94,7 @@ public class Oeuvre {
         this.particularite = particularite;
     }
 
-    protected void initialiser(int particularite) {
+    protected void initialiser(String titre, String auteur, int particularite) {
         this.titre = titre;
         this.auteur = auteur;
         this.particularite = particularite;
@@ -91,9 +102,7 @@ public class Oeuvre {
     }
 
     public Oeuvre() {
-        this.titre = titre;
-        this.auteur = auteur;
-        this.particularite = particularite;
+
     }
 
 }

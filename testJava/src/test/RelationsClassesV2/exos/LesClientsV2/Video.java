@@ -9,6 +9,10 @@ public class Video extends Oeuvre {
         this.dureeVideo = dureeVideo;
     }
 
+    public Video() {
+        this.toutesLesVideos();
+    }
+
     public int getDureeVideo() {
         return dureeVideo;
     }
@@ -16,8 +20,15 @@ public class Video extends Oeuvre {
     public String toutesLesVideos() {
         int nb = getNbVideo();
         String ret = "";
-        for (int i = 0; i < nb; i++) {
-            ret = "- " + videos[i].getVideo() + "\r\n";
+        if (nb == 0) {
+            ret = "Il n'y a pas de video à la commande";
+
+        } else {
+
+            System.out.println("Toutes la Catégories vidéo:");
+            for (int i = 0; i < nb; i++) {
+                ret = "- " + videos[i].getVideo() + "\r\n";
+            }
         }
         return ret;
     }

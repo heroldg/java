@@ -1,574 +1,602 @@
 {
-    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
-    // Pointez pour afficher la description des attributs existants.
-    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "BatailleDeDes",
-            "request": "launch",
-            "mainClass": "test.RelationsClassesV2.exos.LesDes2Correc.BatailleDeDes",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "PLayDeuxJoueurDe",
-            "request": "launch",
-            "mainClass": "test.RelationsClassesV2.exos.LesDes.PLayDeuxJoueurDe",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "JoueurBataille",
-            "request": "launch",
-            "mainClass": "test.RelationsClassesV2.exos.JoueurBataille",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "PlayDes",
-            "request": "launch",
-            "mainClass": "test.POONEWONE.JeuDeDes.PlayDes",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Transtypage2",
-            "request": "launch",
-            "mainClass": "test.RelationsClassesV2.Cours.Transtypage2",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Transtypage",
-            "request": "launch",
-            "mainClass": "test.RelationsClassesV2.Cours.Transtypage",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestGrille",
-            "request": "launch",
-            "mainClass": "test.POONEWONE.MBNV4.TestGrille",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestGrille",
-            "request": "launch",
-            "mainClass": "test.POONEWONE.MBNV3.TestGrille",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "saisieCustomer",
-            "request": "launch",
-            "mainClass": "test.POONEWONE.batailleNavale.customers.saisieCustomer",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "PlayDes",
-            "request": "launch",
-            "mainClass": "test.POONEWONE.batailleNavale.JeuDeDes.PlayDes",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestTableauBateaux",
-            "request": "launch",
-            "mainClass": "test.POONEWONE.batailleNavale.TestTableauBateaux",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestBateau",
-            "request": "launch",
-            "mainClass": "test.POONEWONE.batailleNavale.TestBateau",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestbateauPlay",
-            "request": "launch",
-            "mainClass": "test.POO.MicrobatailenavaleV3POO.TestbateauPlay",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestClients",
-            "request": "launch",
-            "mainClass": "test.POO.Clients132.TestClients",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestSaisirEtAffichage",
-            "request": "launch",
-            "mainClass": "test.POO.LesClients.TestSaisirEtAffichage",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestDes",
-            "request": "launch",
-            "mainClass": "test.POO.LesDes.TestDes",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TroisDes",
-            "request": "launch",
-            "mainClass": "test.POO.LesJeuxDeDes.TroisDes",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestBateau3",
-            "request": "launch",
-            "mainClass": "test.POO.batailleNavale.TestBateau3",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestTableauBateaux",
-            "request": "launch",
-            "mainClass": "test.POO.batailleNavale.TestTableauBateaux",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "TestBateau",
-            "request": "launch",
-            "mainClass": "test.POO.batailleNavale.TestBateau",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "ASCIIARTSTUDIOFINAL",
-            "request": "launch",
-            "mainClass": "test.jour13.ASCIIARTSTUDIOFINAL",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "ASCIIARTSTUDIOTEST",
-            "request": "launch",
-            "mainClass": "test.jour13.ASCIIARTSTUDIOTEST",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch peint",
-            "request": "launch",
-            "mainClass": "test.jour13.peint",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch ASCIIArtStudio",
-            "request": "launch",
-            "mainClass": "test.jour13.ASCIIArtStudio",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch SauteMouton",
-            "request": "launch",
-            "mainClass": "test.jour13.SauteMouton",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch UnTabEtDesFonctions",
-            "request": "launch",
-            "mainClass": "test.jour13.UnTabEtDesFonctions",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch MicroBatailleNavaleV2",
-            "request": "launch",
-            "mainClass": "test.jour13.MicroBatailleNavaleV2",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch LePLusGrand",
-            "request": "launch",
-            "mainClass": "test.jour13.LePLusGrand",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch PunitionRecursive",
-            "request": "launch",
-            "mainClass": "test.jour13.PunitionRecursive",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestNbSecToHMS",
-            "request": "launch",
-            "mainClass": "test.jour13.TestNbSecToHMS",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch PassageEnParametresTypeReference",
-            "request": "launch",
-            "mainClass": "test.jour13.PassageEnParametresTypeReference",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch afficheLaPuissance",
-            "request": "launch",
-            "mainClass": "test.jour13.afficheLaPuissance",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch punition",
-            "request": "launch",
-            "mainClass": "test.jour13.punition",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch Testbateau3",
-            "request": "launch",
-            "mainClass": "test.jour12.batailleNavale.Testbateau3",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestBateau",
-            "request": "launch",
-            "mainClass": "test.jour12.batailleNavale.TestBateau",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestTableauBateau",
-            "request": "launch",
-            "mainClass": "test.jour12.batailleNavale.TestTableauBateau",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch morpion",
-            "request": "launch",
-            "mainClass": "test.jour11.morpion",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch microBatailleNavale",
-            "request": "launch",
-            "mainClass": "test.jour11.microBatailleNavale",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch matrix",
-            "request": "launch",
-            "mainClass": "test.jour11.matrix",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch queFaitildonc",
-            "request": "launch",
-            "mainClass": "test.jour11.queFaitildonc",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch palindrome",
-            "request": "launch",
-            "mainClass": "test.jour11.palindrome",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch machineAVoter",
-            "request": "launch",
-            "mainClass": "test.jour11.machineAVoter",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch moyenneDeNotesv4",
-            "request": "launch",
-            "mainClass": "test.jour11.moyenneDeNotesv4",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch TableauxNombreDOccurences",
-            "request": "launch",
-            "mainClass": "test.jour11.TableauxNombreDOccurences",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch forAndTableau",
-            "request": "launch",
-            "mainClass": "test.jour11.forAndTableau",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch tableaux0to10",
-            "request": "launch",
-            "mainClass": "test.jour11.tableaux0to10",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch Tableaux2D",
-            "request": "launch",
-            "mainClass": "test.jour11.Tableaux2D",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch ListeDeCourses",
-            "request": "launch",
-            "mainClass": "test.jour11.ListeDeCourses",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch tableaux",
-            "request": "launch",
-            "mainClass": "test.jour11.tableaux",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch testascii",
-            "request": "launch",
-            "mainClass": "test.jour10.testascii",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch asciiartv2",
-            "request": "launch",
-            "mainClass": "test.jour10.asciiartv2",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch asciiart",
-            "request": "launch",
-            "mainClass": "test.jour10.asciiart",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch multipleDeTrois",
-            "request": "launch",
-            "mainClass": "test.jour9.multipleDeTrois",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch showRepliqueFilms",
-            "request": "launch",
-            "mainClass": "test.jour9.showRepliqueFilms",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch computerFindNumber",
-            "request": "launch",
-            "mainClass": "test.jour8.computerFindNumber",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch findNumber",
-            "request": "launch",
-            "mainClass": "test.jour8.findNumber",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch moyenneDesNotesV3",
-            "request": "launch",
-            "mainClass": "test.jour8.moyenneDesNotesV3",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch moyenneDesNotesV2",
-            "request": "launch",
-            "mainClass": "test.jour7.moyenneDesNotesV2",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch moyenneDesNotesV2",
-            "request": "launch",
-            "mainClass": "test.jour1.jour7.moyenneDesNotesV2",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch moyenneDesNotesV1",
-            "request": "launch",
-            "mainClass": "test.jour6.moyenneDesNotesV1",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch convertirEuroBitcoin",
-            "request": "launch",
-            "mainClass": "test.jour5.convertirEuroBitcoin",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch QuestionGeographique",
-            "request": "launch",
-            "mainClass": "test.jour5.QuestionGeographique",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch puissance2",
-            "request": "launch",
-            "mainClass": "test.jour5.puissance2",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch tableDeMultiplication",
-            "request": "launch",
-            "mainClass": "test.jour5.tableDeMultiplication",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch bulletinDePaye",
-            "request": "launch",
-            "mainClass": "test.jour4.bulletinDePaye",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch tempsDeCuisson",
-            "request": "launch",
-            "mainClass": "test.jour3.tempsDeCuisson",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch nomDuMois",
-            "request": "launch",
-            "mainClass": "test.jour3.nomDuMois",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch temperature",
-            "request": "launch",
-            "mainClass": "test.jour3.temperature",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch voyage",
-            "request": "launch",
-            "mainClass": "test.jour2.voyage",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch triSelectif",
-            "request": "launch",
-            "mainClass": "test.jour2.triSelectif",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch age2",
-            "request": "launch",
-            "mainClass": "test.jour2.age2",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch age",
-            "request": "launch",
-            "mainClass": "test.jour2.age",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch tva2",
-            "request": "launch",
-            "mainClass": "test.jour2.tva2",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch CaractereAleatoire",
-            "request": "launch",
-            "mainClass": "test.jour1.CaractereAleatoire",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch Aleatoire",
-            "request": "launch",
-            "mainClass": "test.jour1.Aleatoire",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch Saisir",
-            "request": "launch",
-            "mainClass": "test.jour1.Saisir",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch DateAmerique",
-            "request": "launch",
-            "mainClass": "test.jour1.DateAmerique",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch Tva",
-            "request": "launch",
-            "mainClass": "test.jour1.Tva",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "test.jour1.App",
-            "projectName": "testJava_bfd1cc90"
-        },
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "testJava_bfd1cc90"
-        }
-    ]
+  // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+  // Pointez pour afficher la description des attributs existants.
+  // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Transtypage2",
+      "request": "launch",
+      "mainClass": "test.RelationsClassesV2.Cours.Transtypage2",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "TestClients",
+      "request": "launch",
+      "mainClass": "test.POO.Clients132.TestClients",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "test.jour1.App",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "Aleatoire",
+      "request": "launch",
+      "mainClass": "test.jour1.Aleatoire",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "BatailleDeDes",
+      "request": "launch",
+      "mainClass": "test.RelationsClassesV2.exos.LesDes2Correc.BatailleDeDes",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "PLayDeuxJoueurDe",
+      "request": "launch",
+      "mainClass": "test.RelationsClassesV2.exos.LesDes.PLayDeuxJoueurDe",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "JoueurBataille",
+      "request": "launch",
+      "mainClass": "test.RelationsClassesV2.exos.JoueurBataille",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "PlayDes",
+      "request": "launch",
+      "mainClass": "test.POONEWONE.JeuDeDes.PlayDes",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Transtypage2",
+      "request": "launch",
+      "mainClass": "test.RelationsClassesV2.Cours.Transtypage2",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Transtypage",
+      "request": "launch",
+      "mainClass": "test.RelationsClassesV2.Cours.Transtypage",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestGrille",
+      "request": "launch",
+      "mainClass": "test.POONEWONE.MBNV4.TestGrille",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestGrille",
+      "request": "launch",
+      "mainClass": "test.POONEWONE.MBNV3.TestGrille",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "saisieCustomer",
+      "request": "launch",
+      "mainClass": "test.POONEWONE.batailleNavale.customers.saisieCustomer",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "PlayDes",
+      "request": "launch",
+      "mainClass": "test.POONEWONE.batailleNavale.JeuDeDes.PlayDes",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestTableauBateaux",
+      "request": "launch",
+      "mainClass": "test.POONEWONE.batailleNavale.TestTableauBateaux",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestBateau",
+      "request": "launch",
+      "mainClass": "test.POONEWONE.batailleNavale.TestBateau",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestbateauPlay",
+      "request": "launch",
+      "mainClass": "test.POO.MicrobatailenavaleV3POO.TestbateauPlay",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestClients",
+      "request": "launch",
+      "mainClass": "test.POO.Clients132.TestClients",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestSaisirEtAffichage",
+      "request": "launch",
+      "mainClass": "test.POO.LesClients.TestSaisirEtAffichage",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestDes",
+      "request": "launch",
+      "mainClass": "test.POO.LesDes.TestDes",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TroisDes",
+      "request": "launch",
+      "mainClass": "test.POO.LesJeuxDeDes.TroisDes",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestBateau3",
+      "request": "launch",
+      "mainClass": "test.POO.batailleNavale.TestBateau3",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestTableauBateaux",
+      "request": "launch",
+      "mainClass": "test.POO.batailleNavale.TestTableauBateaux",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "TestBateau",
+      "request": "launch",
+      "mainClass": "test.POO.batailleNavale.TestBateau",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "ASCIIARTSTUDIOFINAL",
+      "request": "launch",
+      "mainClass": "test.jour13.ASCIIARTSTUDIOFINAL",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "ASCIIARTSTUDIOTEST",
+      "request": "launch",
+      "mainClass": "test.jour13.ASCIIARTSTUDIOTEST",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch peint",
+      "request": "launch",
+      "mainClass": "test.jour13.peint",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch ASCIIArtStudio",
+      "request": "launch",
+      "mainClass": "test.jour13.ASCIIArtStudio",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch SauteMouton",
+      "request": "launch",
+      "mainClass": "test.jour13.SauteMouton",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch UnTabEtDesFonctions",
+      "request": "launch",
+      "mainClass": "test.jour13.UnTabEtDesFonctions",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch MicroBatailleNavaleV2",
+      "request": "launch",
+      "mainClass": "test.jour13.MicroBatailleNavaleV2",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch LePLusGrand",
+      "request": "launch",
+      "mainClass": "test.jour13.LePLusGrand",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch PunitionRecursive",
+      "request": "launch",
+      "mainClass": "test.jour13.PunitionRecursive",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestNbSecToHMS",
+      "request": "launch",
+      "mainClass": "test.jour13.TestNbSecToHMS",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch PassageEnParametresTypeReference",
+      "request": "launch",
+      "mainClass": "test.jour13.PassageEnParametresTypeReference",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch afficheLaPuissance",
+      "request": "launch",
+      "mainClass": "test.jour13.afficheLaPuissance",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch punition",
+      "request": "launch",
+      "mainClass": "test.jour13.punition",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch Testbateau3",
+      "request": "launch",
+      "mainClass": "test.jour12.batailleNavale.Testbateau3",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestBateau",
+      "request": "launch",
+      "mainClass": "test.jour12.batailleNavale.TestBateau",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestTableauBateau",
+      "request": "launch",
+      "mainClass": "test.jour12.batailleNavale.TestTableauBateau",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch morpion",
+      "request": "launch",
+      "mainClass": "test.jour11.morpion",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch microBatailleNavale",
+      "request": "launch",
+      "mainClass": "test.jour11.microBatailleNavale",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch matrix",
+      "request": "launch",
+      "mainClass": "test.jour11.matrix",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch queFaitildonc",
+      "request": "launch",
+      "mainClass": "test.jour11.queFaitildonc",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch palindrome",
+      "request": "launch",
+      "mainClass": "test.jour11.palindrome",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch machineAVoter",
+      "request": "launch",
+      "mainClass": "test.jour11.machineAVoter",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch moyenneDeNotesv4",
+      "request": "launch",
+      "mainClass": "test.jour11.moyenneDeNotesv4",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch TableauxNombreDOccurences",
+      "request": "launch",
+      "mainClass": "test.jour11.TableauxNombreDOccurences",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch forAndTableau",
+      "request": "launch",
+      "mainClass": "test.jour11.forAndTableau",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch tableaux0to10",
+      "request": "launch",
+      "mainClass": "test.jour11.tableaux0to10",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch Tableaux2D",
+      "request": "launch",
+      "mainClass": "test.jour11.Tableaux2D",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch ListeDeCourses",
+      "request": "launch",
+      "mainClass": "test.jour11.ListeDeCourses",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch tableaux",
+      "request": "launch",
+      "mainClass": "test.jour11.tableaux",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch testascii",
+      "request": "launch",
+      "mainClass": "test.jour10.testascii",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch asciiartv2",
+      "request": "launch",
+      "mainClass": "test.jour10.asciiartv2",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch asciiart",
+      "request": "launch",
+      "mainClass": "test.jour10.asciiart",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch multipleDeTrois",
+      "request": "launch",
+      "mainClass": "test.jour9.multipleDeTrois",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch showRepliqueFilms",
+      "request": "launch",
+      "mainClass": "test.jour9.showRepliqueFilms",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch computerFindNumber",
+      "request": "launch",
+      "mainClass": "test.jour8.computerFindNumber",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch findNumber",
+      "request": "launch",
+      "mainClass": "test.jour8.findNumber",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch moyenneDesNotesV3",
+      "request": "launch",
+      "mainClass": "test.jour8.moyenneDesNotesV3",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch moyenneDesNotesV2",
+      "request": "launch",
+      "mainClass": "test.jour7.moyenneDesNotesV2",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch moyenneDesNotesV2",
+      "request": "launch",
+      "mainClass": "test.jour1.jour7.moyenneDesNotesV2",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch moyenneDesNotesV1",
+      "request": "launch",
+      "mainClass": "test.jour6.moyenneDesNotesV1",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch convertirEuroBitcoin",
+      "request": "launch",
+      "mainClass": "test.jour5.convertirEuroBitcoin",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch QuestionGeographique",
+      "request": "launch",
+      "mainClass": "test.jour5.QuestionGeographique",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch puissance2",
+      "request": "launch",
+      "mainClass": "test.jour5.puissance2",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch tableDeMultiplication",
+      "request": "launch",
+      "mainClass": "test.jour5.tableDeMultiplication",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch bulletinDePaye",
+      "request": "launch",
+      "mainClass": "test.jour4.bulletinDePaye",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch tempsDeCuisson",
+      "request": "launch",
+      "mainClass": "test.jour3.tempsDeCuisson",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch nomDuMois",
+      "request": "launch",
+      "mainClass": "test.jour3.nomDuMois",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch temperature",
+      "request": "launch",
+      "mainClass": "test.jour3.temperature",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch voyage",
+      "request": "launch",
+      "mainClass": "test.jour2.voyage",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch triSelectif",
+      "request": "launch",
+      "mainClass": "test.jour2.triSelectif",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch age2",
+      "request": "launch",
+      "mainClass": "test.jour2.age2",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch age",
+      "request": "launch",
+      "mainClass": "test.jour2.age",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch tva2",
+      "request": "launch",
+      "mainClass": "test.jour2.tva2",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch CaractereAleatoire",
+      "request": "launch",
+      "mainClass": "test.jour1.CaractereAleatoire",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch Aleatoire",
+      "request": "launch",
+      "mainClass": "test.jour1.Aleatoire",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch Saisir",
+      "request": "launch",
+      "mainClass": "test.jour1.Saisir",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch DateAmerique",
+      "request": "launch",
+      "mainClass": "test.jour1.DateAmerique",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch Tva",
+      "request": "launch",
+      "mainClass": "test.jour1.Tva",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "test.jour1.App",
+      "projectName": "testJava_bfd1cc90"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "testJava_bfd1cc90"
+    }
+  ]
 }

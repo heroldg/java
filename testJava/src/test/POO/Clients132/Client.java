@@ -27,8 +27,7 @@ public class Client {
     }
 
     public static String getMenu() {
-        return "   Menu   \n\r 1 - Afficher les clients  \n\r 2 - Cr\u00E9er un client\r\n 3 - Créer une oeuvre\r\n 4 - Créer une commande \r\n Afficher les commandes \r\n Quitter";
-
+        return "   Menu   \n\r 1 - Afficher les clients  \n\r 2 - Cr\u00E9er un client\r\n 3 - Créer une oeuvre\r\n 4 - Créer une commande \r\n 5 - Afficher les commandes \r\n 6 - Quitter";
     }
 
 }
