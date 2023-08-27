@@ -15,7 +15,6 @@ public class Livre extends Oeuvre {
         initialiser(getTitre(), getAuteur(), nbPages);
         this.getLivre();
         livres[nb].getLivre();
-        nb++;
     }
 
     public int getNbPages() {

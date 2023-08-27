@@ -21,7 +21,7 @@ public class Video extends Oeuvre {
         int nb = getNbVideo();
         String ret = "";
         if (nb == 0) {
-            ret = "Il n'y a pas de video à la commande";
+            System.out.println("Il n'y a pas de video à la commande");
 
         } else {
 

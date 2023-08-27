@@ -14,7 +14,7 @@ public class Oeuvre {
     private int nbLivre = 0;
 
     // Le trableau prend on compte les deux categories d'oeuvre (video et livre)
-    private String[][] categoriesOeuvres = new String[2][100];
+    public String[][] categoriesOeuvres = new String[2][100];
     private int particularite;
 
     public Oeuvre(int choix) {
@@ -41,6 +41,13 @@ public class Oeuvre {
         setParticularite(time);
         this.categoriesOeuvres[0][nbVideo] = this.getVideo();
         System.out.println(this.getVideo());
+    }
+
+    public void seeMediaAvailible() {
+        for (int i = 0; i < this.categoriesOeuvres.length; i++) {
+            System.out.println(this.categoriesOeuvres[0][i]);
+            System.out.println(this.categoriesOeuvres[1][i]);
+        }
     }
 
     public void addVideo() {
