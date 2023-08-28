@@ -2,6 +2,7 @@ package test.POO.Clients132;
 
 import java.util.Scanner;
 
+import test.RelationsClassesV2.exos.LesClientsV22.Commande;
 import test.RelationsClassesV2.exos.LesClientsV22.Oeuvre;
 
 public class TestClients {
@@ -10,15 +11,18 @@ public class TestClients {
     static String nom;
     static Client[] clients = new Client[MAX_CLIENTS];
     static Oeuvre[] oeuvres = new Oeuvre[100];
+    static String[][] clientAndOeuvres = new String[100][100];
+    static String[][] commandes = new String[100][100];
     static int[] CHOIX = new int[100];
     static int i, nb;
     static int saisie;
 
     static String titre;
     static String auteur;
-    static int time;
-    static int pages;
+    static int particularite;
     static int nbOeuvres;
+    static int oeuvreCommande = 0;
+    static int clientCommande = 0;
 
     public static void main(String[] args) {
         int choix = 0;
@@ -66,10 +70,11 @@ public class TestClients {
                         System.out.println("Auteur ?");
                         auteur = console.nextLine();
                         System.out.println("Nombres de pages ?");
-                        pages = console.nextInt();
-                        oeuvres[nbOeuvres] = new Oeuvre(titre, auteur, pages);
+                        particularite = console.nextInt();
+                        oeuvres[nbOeuvres] = new Oeuvre(titre, auteur, particularite);
                         System.out.println(oeuvres[nbOeuvres].getInfoOeuvre(choix) + " ajouté");
                         CHOIX[nbOeuvres] = choix;
+                        break;
 
                     } else if (choix == 2) {
 
@@ -80,8 +85,8 @@ public class TestClients {
                         System.out.println("Auteur ?");
                         auteur = console.nextLine();
                         System.out.println("Temps de la vidéo (minutes) ?");
-                        time = console.nextInt();
-                        oeuvres[nbOeuvres] = new Oeuvre(titre, auteur, time);
+                        particularite = console.nextInt();
+                        oeuvres[nbOeuvres] = new Oeuvre(titre, auteur, particularite);
                         System.out.println(oeuvres[nbOeuvres].getInfoOeuvre(choix) + " ajouté");
                         CHOIX[nbOeuvres] = choix;
 
@@ -90,13 +95,14 @@ public class TestClients {
                     }
 
                 case 4:
-                    console.nextLine();
                     System.out.println("Pour quel client ?");
                     System.out.println();
                     System.out.println("-- Clients --");
+
                     for (int i = 0; i < nb; i++) {
                         System.out.println(clients[i].getInfo());
                     }
+                    clientCommande = console.nextInt();
 
                     System.out.println("Quelle oeuvre ajouter à la commande ?");
                     for (int i = 0; i < nbOeuvres; i++) {
@@ -104,9 +110,45 @@ public class TestClients {
                         System.out.println(CHOIX[i]);
 
                     }
-                default:
+                    oeuvreCommande = console.nextInt();
+
+                    for (int i = 0; i < nb; i++) {
+                        clientAndOeuvres[i][0] = clients[i].getInfo();
+                        for (int j = 0; j < nbOeuvres; j++) {
+
+                            clientAndOeuvres[i][j] = oeuvres[j].getInfoOeuvre(choix);
+                        }
+
+                    }
+
+                    // for (int i = 0; i < nb; i++) {
+                    // System.out.println(clients[i].getInfo());
+                    // for (int j = 0; j < nbOeuvres; j++) {
+
+                    // System.out.println((clientAndOeuvres[i][j]));
+
+                    // }
+
+                    // }
+
+                    // il faut avoir une variable avec le nombre de commande pour un client et une
+                    // seconde avec le nombre total de commande.
+
+                    System.out.println((clients[clientCommande - 1].getInfo()));
+                    System.out.println((clientAndOeuvres[clientCommande - 1][oeuvreCommande - 1]));
 
                     break;
+
+                case 5:
+
+                    for (int i = 0; i < nb; i++) {
+                        System.out.println(commandes[i][0] = clientAndOeuvres[i][0]);
+                        for (int j = 0; j < nbOeuvres; j++) {
+                            System.out.println(clientAndOeuvres[clientCommande][oeuvreCommande]);
+
+                        }
+
+                    }
 
             }
         }
