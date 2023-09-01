@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TestCommandes",
+      "request": "launch",
+      "mainClass": "test.RelationsClassesV2.Correction.TestCommandes",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
       "name": "Transtypage2",
       "request": "launch",
       "mainClass": "test.RelationsClassesV2.Cours.Transtypage2",

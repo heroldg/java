@@ -22,8 +22,12 @@ public class Client {
 
     // Getters
 
+    public String getNom() {
+        return nom;
+    }
+
     public static int getNbClients() {
-        return nbClients;
+        return Client.nbClients;
     }
 
     public static String getMenu() {
