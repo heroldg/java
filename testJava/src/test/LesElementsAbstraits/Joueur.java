@@ -2,7 +2,7 @@ package test.LesElementsAbstraits;
 
 import test.POONEWONE.batailleNavale.Bateau;
 import test.RelationsClassesV2.Cours.GrilleDeJeu;
-import test.RelationsClassesV2.Cours.Outils;
+// import test.RelationsClassesV2.Cours.Outils;
 
 public abstract class Joueur {
     protected String nom;
@@ -12,7 +12,7 @@ public abstract class Joueur {
     protected int nbBateauxCoules = 0;
     private Joueur adversaire;
 
-    private String[] orientations = { "Horizontal", "Vertical" };
+    // private String[] orientations = { "Horizontal", "Vertical" };
 
     public String getNom() {
         return this.nom;
@@ -28,27 +28,9 @@ public abstract class Joueur {
         }
     }
 
-    public void positionnerBateau(Bateau b) {
-        int colonne, ligne;
-        boolean orientHoriz;
-        do {
-            orientHoriz = Outils.choix("Quelle orientation souhaitez-vous pour le " + b.getType() + " ?",
-                    orientations) == 1;
-            if (orientHoriz) {
-                ligne = Outils.saisirEntreBornes("Ligne ?", 1, GrilleDeJeu.HAUTEUR) - 1;
-                colonne = Outils.saisirEntreBornes("Colonne de début du bateau ? ", 1, b.getLongueur() + 1) - 1;
-            } else {
-                ligne = Outils.saisirEntreBornes("Ligne du haut du bateau ?", 1,
-                        GrilleDeJeu.HAUTEUR - b.getLongueur() + 1)
-                        - 1;
-                colonne = Outils.saisirEntreBornes("Colonne ?", 1, GrilleDeJeu.LARGEUR) - 1;
+    public abstract void positionnerBateau(Bateau b);
 
-            }
-
-        } while (!ajouterBateau(ligne, colonne, orientHoriz, b));
-    }
-
-    private boolean ajouterBateau(int ligne, int colonne, boolean orientHoriz, Bateau b) {
+    protected boolean ajouterBateau(int ligne, int colonne, boolean orientHoriz, Bateau b) {
         boolean ok = true;
         int c = 0;
         while (ok && c < b.getLongueur()) {
@@ -77,14 +59,9 @@ public abstract class Joueur {
         return ok;
     }
 
-    public boolean tirer() {
-        this.champsDeTir.afficher();
-        int lat = Outils.saisirEntreBornes("Ligne ?", 1, GrilleDeJeu.HAUTEUR) - 1;
-        int lon = Outils.saisirEntreBornes("Colonne ?", 1, GrilleDeJeu.LARGEUR) - 1;
-        return this.testerTir(lat, lon);
-    }
+    public abstract boolean tirer();
 
-    private boolean testerTir(int ligne, int colonne) {
+    protected boolean testerTir(int ligne, int colonne) {
         boolean gagne = false;
         int resultatTir = this.champsDeTir.get(ligne, colonne);
         if (resultatTir != GrilleDeJeu.INCONNU) {
