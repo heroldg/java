@@ -1,21 +1,21 @@
-package test.RelationsEntreClasses.Cours;
+package test.LesElementsAbstraits;
 
-import test.POONEWONE.MBNV3.Grille;
 import test.POONEWONE.batailleNavale.Bateau;
+import test.RelationsClassesV2.Cours.GrilleDeJeu;
 import test.RelationsClassesV2.Cours.Outils;
 
-public class Joueur {
-
-    private String nom;
-    private GrilleDeJeu champDeTir = new GrilleDeJeu();
+public abstract class Joueur {
+    protected String nom;
+    protected GrilleDeJeu champsDeTir = new GrilleDeJeu();
     private Bateau[] bateaux = new Bateau[5];
     private int nbBateaux = 0;
-    private int nbBateauxCoules = 0;
+    protected int nbBateauxCoules = 0;
     private Joueur adversaire;
+
+    private String[] orientations = { "Horizontal", "Vertical" };
 
     public String getNom() {
         return this.nom;
-
     }
 
     public Joueur getAdversaire() {
@@ -32,21 +32,23 @@ public class Joueur {
         int colonne, ligne;
         boolean orientHoriz;
         do {
-            orientHoriz = Outils.choix("Quelle orientation souhaitez-vous pour le " + b.getType() + " ?", orientations) == 1;
+            orientHoriz = Outils.choix("Quelle orientation souhaitez-vous pour le " + b.getType() + " ?",
+                    orientations) == 1;
             if (orientHoriz) {
-                ligne = Outils.saisirEntreBornes("ligne ?", 1 , Grille.DeJeuHAUTEUR) - 1;
-                colonne = Outils.saisirEntreBornes("colonne de début du bateau", b.getLongueur() + 1);
-
+                ligne = Outils.saisirEntreBornes("Ligne ?", 1, GrilleDeJeu.HAUTEUR) - 1;
+                colonne = Outils.saisirEntreBornes("Colonne de début du bateau ? ", 1, b.getLongueur() + 1) - 1;
             } else {
-                // A la base il y a écrit Grille et non pas GrilleDeJeu
-                ligne = Outils.saisirEntreBornes("ligne du haut du bateau ?" , 1 GrilleDeJeu.HAUTEUR - b.getLongueur() + 1) -1;
-                colonne = Outils.saisirEntreBornes("colonne ? ", 1, Grille.LARGEUR) -1;
+                ligne = Outils.saisirEntreBornes("Ligne du haut du bateau ?", 1,
+                        GrilleDeJeu.HAUTEUR - b.getLongueur() + 1)
+                        - 1;
+                colonne = Outils.saisirEntreBornes("Colonne ?", 1, GrilleDeJeu.LARGEUR) - 1;
 
             }
+
         } while (!ajouterBateau(ligne, colonne, orientHoriz, b));
     }
 
-    public boolean ajouterBateau(int ligne, int colonne, boolean orientHoriz, Bateau b) {
+    private boolean ajouterBateau(int ligne, int colonne, boolean orientHoriz, Bateau b) {
         boolean ok = true;
         int c = 0;
         while (ok && c < b.getLongueur()) {
@@ -60,29 +62,31 @@ public class Joueur {
                 }
             }
             c++;
-        }
 
-        if (ok) {
-            b.positionner(ligne, colonne, orientHoriz);
-            this.bateaux[this.nbBateaux] = b;
-            this.nbBateaux++;
-        } else {
-            System.out.println("Le bateau ne peut être positionné à cet emplacement, il se superpose à un autre.");
+            if (ok) {
+                b.positionner(ligne, colonne, orientHoriz);
+                this.bateaux[this.nbBateaux] = b;
+                this.nbBateaux++;
+            } else {
+                System.out.println(
+                        "Le bateau ne peut pas être positionné à cet emplacement, il se superpose à un autre.");
+            }
+
         }
 
         return ok;
     }
 
     public boolean tirer() {
-        this.champDeTir.afficher();
-        int lat = Outils.saisirEntreBornes("ligne ?", 1, GrilleDeJeu.HAUTEUR) - 1;
-        int lon = Outils.saisirEntreBornes("colonne ?", 1, GrilleDeJeu.LARGEUR) - 1;
+        this.champsDeTir.afficher();
+        int lat = Outils.saisirEntreBornes("Ligne ?", 1, GrilleDeJeu.HAUTEUR) - 1;
+        int lon = Outils.saisirEntreBornes("Colonne ?", 1, GrilleDeJeu.LARGEUR) - 1;
         return this.testerTir(lat, lon);
     }
 
-    public boolean testerTir(int ligne, int colonne) {
+    private boolean testerTir(int ligne, int colonne) {
         boolean gagne = false;
-        int resultatTir = this.champDeTir.get(ligne, colonne);
+        int resultatTir = this.champsDeTir.get(ligne, colonne);
         if (resultatTir != GrilleDeJeu.INCONNU) {
             System.out.println("Vous avez déjà tiré à cette position");
         } else {
@@ -94,17 +98,19 @@ public class Joueur {
             }
             if (resultatTir == 0) {
                 System.out.println("Plouf !");
-                this.champDeTir.set(ligne, colonne, GrilleDeJeu.PLOUF);
+                this.champsDeTir.set(ligne, colonne, GrilleDeJeu.BOOM);
             } else {
                 System.out.println("Touché !");
-                this.champDeTir.set(ligne, colonne, GrilleDeJeu.BOOM);
                 if (resultatTir == Bateau.COULE) {
                     System.out.println("Coulé ! Vous avez coulé son " + this.adversaire.bateaux[n - 1].getType());
+                    this.adversaire.nbBateauxCoules++;
                     gagne = this.adversaire.nbBateaux == this.adversaire.nbBateauxCoules;
                 }
+
             }
         }
-        return gagne;
-    }
 
+        return gagne;
+
+    }
 }

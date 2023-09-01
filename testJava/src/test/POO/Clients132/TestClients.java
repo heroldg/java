@@ -2,7 +2,6 @@ package test.POO.Clients132;
 
 import java.util.Scanner;
 
-import test.RelationsClassesV2.exos.LesClientsV22.Commande;
 import test.RelationsClassesV2.exos.LesClientsV22.Oeuvre;
 
 public class TestClients {

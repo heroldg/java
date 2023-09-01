@@ -13,7 +13,7 @@ public class TestCommandes {
 
     private static int nbOeuvres = 0;
     private static int nbCommandes = 0;
-    private static int i, nb, saisie, nbPages, duree;
+    private static int nb, saisie, nbPages, duree;
     private static String nom, titre, auteur;
     private static Commande com;
 
@@ -78,8 +78,8 @@ public class TestCommandes {
                     System.out.println();
                     System.out.println("-- Clients --");
 
-                    for (int i = 0; i < nb - 1; i++) {
-                        System.out.println(clients[i].getNom());
+                    for (int i = 0; i < nb; i++) {
+                        System.out.println(i + 1 + " - " + clients[i].getNom());
                     }
                     saisie = console.nextInt() - 1;
                     com = new Commande(clients[saisie]);
@@ -87,8 +87,8 @@ public class TestCommandes {
                     while (saisie != nbOeuvres) {
 
                         System.out.println("Quelle oeuvre à ajouter à la commande ?");
-                        for (int i = 0; i < nbOeuvres - 1; i++) {
-                            System.out.println(" - " + oeuvres[i].getInfo());
+                        for (int i = 0; i < nbOeuvres; i++) {
+                            System.out.println(i + 1 + " - " + oeuvres[i].getInfo());
                         }
                         System.out.println((nbOeuvres + 1) + " - Terminer la commande");
                         saisie = console.nextInt() - 1;

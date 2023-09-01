@@ -2,14 +2,14 @@ package test.RelationsClassesV2.exos.LesClientsV22;
 
 public class Commande {
     private String nom;
-    private int numCli;
+    // private int numCli;
 
     private String titre;
     private String auteur;
     private int particularite;
 
-    private int numClient;
-    private int numOeuvre;
+    // private int numClient;
+    // private int numOeuvre;
 
     public Commande(String nom, String titre, String auteur, int particularite) {
         this.nom = nom;
@@ -32,9 +32,9 @@ public class Commande {
         return "-- Commandes -- \n\r * Commande de " + ret;
     }
 
-    public Commande(int numClient, int numOeuvre) {
-        this.numClient = numClient;
-        this.numOeuvre = numOeuvre;
-    }
+    // public Commande(int numClient, int numOeuvre) {
+    // this.numClient = numClient;
+    // this.numOeuvre = numOeuvre;
+    // }
 
 }
