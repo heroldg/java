@@ -1,4 +1,4 @@
-package test.LesElementsAbstraits;
+package test.LesElementsAbstraits.cours;
 
 import test.POONEWONE.batailleNavale.Bateau;
 import test.RelationsClassesV2.Cours.Outils;
@@ -42,34 +42,38 @@ public class BatailleNavale implements Jouable {
                 this.joueurs[i] = new JoueurHumain();
             } else {
                 this.joueurs[i] = new JoueurOrdinateur();
-
             }
-            joueurs[0].setAdversaire(this.joueurs[1]);
-            joueurs[1].setAdversaire(this.joueurs[0]);
-            // positionnement des bateaux
-            for (Joueur j : joueurs) {
-                System.out.println("C'est à " + j.getNom());
-                j.positionnerBateau(Bateau.creerBateau("portes-avions", 5));
-                j.positionnerBateau(Bateau.creerBateau("croiseur", 4));
-                j.positionnerBateau(Bateau.creerBateau("contre-torpilleur", 3));
-                j.positionnerBateau(Bateau.creerBateau("sous-marin", 3));
-                j.positionnerBateau(Bateau.creerBateau("torpilleur", 2));
-            }
-
-            // début de la partie
-            Joueur courant = joueurs[0];
-            boolean gagne;
-
-            do {
-                System.out.println("C'est au tour de " + courant.getNom() + " de joueur");
-                gagne = courant.tirer();
-                if (gagne) {
-                    System.out.println("C'est au tour de " + courant.getNom() + " qui gagne");
-                    courant = courant.getAdversaire();
-                }
-
-            } while (!gagne);
         }
+
+        // Set adversaries after creating both players
+        joueurs[0].setAdversaire(joueurs[1]);
+        joueurs[1].setAdversaire(joueurs[0]);
+
+        // Rest of your code...
+
+        // positionnement des bateaux
+        for (Joueur j : joueurs) {
+            System.out.println("C'est à " + j.getNom());
+            j.positionnerBateau(Bateau.creerBateau("portes-avions", 5));
+            j.positionnerBateau(Bateau.creerBateau("croiseur", 4));
+            j.positionnerBateau(Bateau.creerBateau("contre-torpilleur", 3));
+            j.positionnerBateau(Bateau.creerBateau("sous-marin", 3));
+            j.positionnerBateau(Bateau.creerBateau("torpilleur", 2));
+        }
+
+        // début de la partie
+        Joueur courant = joueurs[0];
+        boolean gagne;
+
+        do {
+            System.out.println("C'est au tour de " + courant.getNom() + " de joueur");
+            gagne = courant.tirer();
+            if (gagne) {
+                System.out.println("C'est " + courant.getNom() + " qui gagne");
+                courant = courant.getAdversaire();
+            }
+
+        } while (!gagne);
     }
 
     @Override

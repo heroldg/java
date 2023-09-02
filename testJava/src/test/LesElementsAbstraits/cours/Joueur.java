@@ -1,4 +1,4 @@
-package test.LesElementsAbstraits;
+package test.LesElementsAbstraits.cours;
 
 import test.POONEWONE.batailleNavale.Bateau;
 import test.RelationsClassesV2.Cours.GrilleDeJeu;

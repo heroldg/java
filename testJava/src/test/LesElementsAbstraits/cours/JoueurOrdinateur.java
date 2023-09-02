@@ -1,4 +1,4 @@
-package test.LesElementsAbstraits;
+package test.LesElementsAbstraits.cours;
 
 import java.util.Random;
 

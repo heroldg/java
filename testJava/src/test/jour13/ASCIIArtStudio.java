@@ -42,6 +42,8 @@ public class ASCIIArtStudio {
             }
         }
         System.out.println("Fin merci");
+
+        console.close();
     }
 
     // public static void initialiserTab() {
@@ -74,7 +76,7 @@ public class ASCIIArtStudio {
         int coordonneesY = console.nextInt();
 
         tab[coordonneesY][coordonneesX] = newCar;
-        char oldCar = tab[coordonneesY][coordonneesX];
+        // char oldCar = tab[coordonneesY][coordonneesX];
 
         System.out.print("  |0|1|2|3|");
         System.out.println();

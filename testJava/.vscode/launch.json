@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Jeux",
+      "request": "launch",
+      "mainClass": "test.LesElementsAbstraits.cours.Jeux",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "BatailleNavale",
+      "request": "launch",
+      "mainClass": "test.LesElementsAbstraits.cours.BatailleNavale",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
       "name": "TestCommandes",
       "request": "launch",
       "mainClass": "test.RelationsClassesV2.Correction.TestCommandes",

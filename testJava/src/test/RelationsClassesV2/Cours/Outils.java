@@ -32,7 +32,7 @@ public class Outils {
             System.out.println("une seule possibilité, automatiquemnt retenue");
             ret = 0;
         } else {
-            ret = Outils.saisirEntreBornes("choix", 1, i - 1) - 1;
+            ret = Outils.saisirEntreBornes("choix : ", 1, i - 1) - 1;
         }
         return ret;
     }
