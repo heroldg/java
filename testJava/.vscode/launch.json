@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BatailleNavale",
+      "request": "launch",
+      "mainClass": "test.LesElementsAbstraits.coursv2.BatailleNavale",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "moyenneDesNotesV3",
+      "request": "launch",
+      "mainClass": "test.jour8.moyenneDesNotesV3",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "TestLaLocationCycle",
+      "request": "launch",
+      "mainClass": "test.LesElementsAbstraits.exos.TestLaLocationCycle",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "bulletinDePaye",
+      "request": "launch",
+      "mainClass": "test.jour4.bulletinDePaye",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "CaractereAleatoire",
+      "request": "launch",
+      "mainClass": "test.jour1.CaractereAleatoire",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "DateAmerique",
+      "request": "launch",
+      "mainClass": "test.jour1.DateAmerique",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "Saisir",
+      "request": "launch",
+      "mainClass": "test.jour1.Saisir",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
       "name": "Jeux",
       "request": "launch",
       "mainClass": "test.LesElementsAbstraits.cours.Jeux",

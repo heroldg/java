@@ -5,14 +5,17 @@ import java.time.LocalDate;
 public abstract class LaLocationDeCycles {
     protected String marque;
     protected String modele;
-    protected int tarif;
+    protected double tarif;
     protected LocalDate dateAchat;
 
-    LaLocationDeCycles(String marque, String modele, int tarif, LocalDate dateAchat) {
+    LaLocationDeCycles(String marque, String modele, LocalDate dateAchat) {
         this.marque = marque;
         this.modele = modele;
-        this.tarif = tarif;
         this.dateAchat = dateAchat;
+    }
+
+    public int age() {
+        return dateAchat.until(LocalDate.now()).getYears();
     }
 
     public String getMarque() {
@@ -23,18 +26,17 @@ public abstract class LaLocationDeCycles {
         return this.modele;
     }
 
-    public int getTarif() {
-        return this.tarif;
-    }
+    public abstract double getTarif();
 
     public LocalDate getDateAchat() {
         return dateAchat;
     }
 
     public String getInfo() {
-        return "- Le " + this.getModele() + " de la marque " + this.getMarque() + " est à " + getTarif() + " | "
-                + getDateAchat();
+        return "- Le " + this.getModele() + " de la marque " + this.getMarque() + " | "
+                + LocalDate.from(getDateAchat()) + " | ";
     }
+
 }
 
 // import java.time.LocalDate;

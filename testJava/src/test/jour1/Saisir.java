@@ -12,7 +12,7 @@ public class Saisir {
         int qte = console.nextInt();
 
         // Pourquoi cela ne sort aucune valeur ?
-        System.out.printf("Prix TTC de l'article : %.0f%n euros", prixHT * qte);
+        System.out.printf("Prix TTC de l'article : %.0f euros", prixHT * qte);
 
         console.close();
     }

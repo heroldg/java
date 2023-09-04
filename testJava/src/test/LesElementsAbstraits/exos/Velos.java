@@ -4,9 +4,10 @@ import java.time.LocalDate;
 
 public class Velos extends LaLocationDeCycles {
     private int nombreDeVitesse;
+    private double prixHeureVelo = 4.90;
 
-    public Velos(String marque, String modele, int tarif, LocalDate dateAchat, int nombreDeVitesse) {
-        super(marque, modele, tarif, dateAchat);
+    public Velos(String marque, String modele, LocalDate dateAchat, int nombreDeVitesse) {
+        super(marque, modele, dateAchat);
 
         this.nombreDeVitesse = nombreDeVitesse;
     }
@@ -16,8 +17,13 @@ public class Velos extends LaLocationDeCycles {
     }
 
     @Override
+    public double getTarif() {
+        return prixHeureVelo;
+    }
+
+    @Override
 
     public String getInfo() {
-        return "Vélo " + getNombreDeVitesse() + " vitesse" + super.getInfo();
+        return "Vélo " + super.getInfo() + this.getNombreDeVitesse() + " vitesse |" + this.getTarif() + "/heure";
     }
 }
