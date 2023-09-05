@@ -1,11 +1,11 @@
 package test.LesElementsAbstraits.exos.VMoyenneVMultilingue;
 
 public interface Traduction {
-    void saisieDistance();
+    double saisieDistance();
 
-    void saisieTemps();
+    double saisieTemps();
 
-    void debutReponse();
+    String debutReponse();
 
-    void finReponse();
+    String finReponse();
 }

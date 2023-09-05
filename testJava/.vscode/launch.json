@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "vitesseMoyenne",
+      "request": "launch",
+      "mainClass": "test.LesElementsAbstraits.correction.VitesseMoyenneVersionMultilingue.vitesseMoyenne",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "VitesseMoyenne",
+      "request": "launch",
+      "mainClass": "test.LesElementsAbstraits.exos.VMoyenneVMultilingue.VitesseMoyenne",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
       "name": "BatailleNavale",
       "request": "launch",
       "mainClass": "test.LesElementsAbstraits.coursv2.BatailleNavale",
