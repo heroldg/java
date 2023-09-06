@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "calculatrice",
+      "request": "launch",
+      "mainClass": "test.LesErreursEtExceptions.Exos.calculatrice",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "CalculDeLaRacineCarree",
+      "request": "launch",
+      "mainClass": "test.LesErreursEtExceptions.Correction.CalculDeLaRacineCarree",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "CalculRacineCaree",
+      "request": "launch",
+      "mainClass": "test.LesErreursEtExceptions.Exos.CalculRacineCaree",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
       "name": "vitesseMoyenne",
       "request": "launch",
       "mainClass": "test.LesElementsAbstraits.correction.VitesseMoyenneVersionMultilingue.vitesseMoyenne",

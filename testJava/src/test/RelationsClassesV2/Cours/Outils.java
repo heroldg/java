@@ -10,9 +10,16 @@ public class Outils {
         int val = 0;
         boolean ok;
         do {
-            val = Outils.s.nextInt();
-            Outils.s.nextLine();
-            ok = val >= min && val <= max;
+            try {
+                val = Outils.s.nextInt();
+                ok = val >= min && val <= max;
+
+            } catch (Exception e) {
+                // TODO: handle exception
+                ok = false;
+            } finally {
+                Outils.s.nextLine();
+            }
             if (!ok) {
                 System.err.printf("La valeur doit être un entier compris entre %d et %d%nRessaissez...", min, max);
             }
