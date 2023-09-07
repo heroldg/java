@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Lacalculatrice",
+      "request": "launch",
+      "mainClass": "test.LesErreursEtExceptions.Correction.CreationCalculatrice.Lacalculatrice",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
       "name": "calculatrice",
       "request": "launch",
       "mainClass": "test.LesErreursEtExceptions.Exos.calculatrice",
