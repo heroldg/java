@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RetourTypeReference",
+      "request": "launch",
+      "mainClass": "test.MEMOIRE.RetourTypeReference",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "Puissance",
+      "request": "launch",
+      "mainClass": "test.MEMOIRE.Puissance",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "PassageEnParametreTypeRefence",
+      "request": "launch",
+      "mainClass": "test.MEMOIRE.PassageEnParametreTypeRefence",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "ZonesDeMemoire",
+      "request": "launch",
+      "mainClass": "test.MEMOIRE.ZonesDeMemoire",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
+      "name": "Memoire",
+      "request": "launch",
+      "mainClass": "test.MEMOIRE.Memoire",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
       "name": "Lacalculatrice",
       "request": "launch",
       "mainClass": "test.LesErreursEtExceptions.Correction.CreationCalculatrice.Lacalculatrice",
