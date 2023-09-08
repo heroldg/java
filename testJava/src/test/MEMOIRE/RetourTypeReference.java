@@ -16,6 +16,7 @@ public class RetourTypeReference {
         temps = nbSecToHMS(nbSecondes);
 
         System.out.printf("%02d:%02d:%02d%n", temps[H], temps[M], temps[S]);
+        System.out.println(temps.equals(temps[1]));
 
         console.close();
     }

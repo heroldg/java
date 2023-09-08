@@ -10,9 +10,9 @@ public class Lacalculatrice {
     private static final String OPERATEURS = "+-*/%q";
 
     public static void main(String[] args) {
-        int valeur = saisirEntier();
         char operateur;
         do {
+            int valeur = saisirEntier();
             operateur = saisirOperateur();
             try {
                 if (operateur != 'q') {
@@ -52,7 +52,7 @@ public class Lacalculatrice {
                         default:
                             break;
                     }
-                    System.out.printf("%d %s %d = %d%n", valeur, operateur, valeur, valeur2);
+                    System.out.printf("%d %s %d = %d%n", valeur, operateur, valeur2, res);
                     valeur = res;
                 }
             } catch (DepassementCapaciteException e) {

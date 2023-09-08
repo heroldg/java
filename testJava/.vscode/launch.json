@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AlgoDeConversion",
+      "request": "launch",
+      "mainClass": "test.MEMOIRE.Correction.AlgoDeConversion",
+      "projectName": "testJava_c526697d"
+    },
+    {
+      "type": "java",
       "name": "RetourTypeReference",
       "request": "launch",
       "mainClass": "test.MEMOIRE.RetourTypeReference",
