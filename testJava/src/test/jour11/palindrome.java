@@ -7,11 +7,7 @@ public class palindrome {
         Scanner console = new Scanner(System.in);
         char[][] palindrome = new char[2][100];
         String saisie = "";
-        System.out.println("-----EST-CE UN PALINDROME ?---------------------------");
-        System.out.println("Un palindrome est un mot dont l'ordre des lettres est ");
-        System.out.println("le même qu'il soit lu de gauche à droite ou de droite ");
-        System.out.println("à gauche.");
-        System.out.println();
+        System.out.println("-----EST-CE UN PALINDROME ?--------------------------- \nUn palindrome est un mot dont l'ordre des lettres est\nle même qu'il soit lu de gauche à droite ou de droite \nà gauche. ");
 
         while (!saisie.equals("-1")) {
 
